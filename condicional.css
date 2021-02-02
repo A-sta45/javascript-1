@@ -1,0 +1,41 @@
+body {
+  text-transform: uppercase;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.dado {
+  width: 300px;
+  height: 300px;
+  border: 3px solid;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-content: space-around;
+  border-radius: 20px;
+  background: url("./7-astrofotógrafos-nos-dicen-como-tomar-fotografías-del-espacio-exterior-portada.jpg");
+  /* margin: -308px -3px; */
+  box-shadow: 7px 7px 10px 7px rgba(50, 50, 50, 0.75);
+}
+
+.puntos {
+  width: 90px;
+  height: 90px;
+  background: white;
+  border-radius: 50%;
+  transition: all 0.4s ease-in-out;
+}
+.boton form input {
+  margin: 10px;
+  padding: 10px;
+  text-transform: uppercase;
+}
+.imagen img {
+  width: 300px;
+  height: 300px;
+  border-radius: 20px;
+}
+.puntos:hover {
+  transform: scale(0.5);
+}

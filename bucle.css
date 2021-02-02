@@ -1,0 +1,15 @@
+* {
+  box-sizing: border-box;
+}
+.tablero {
+  width: 300px;
+  height: 100px;
+  border: 1px solid black;
+  display: flex;
+}
+
+.casilla {
+  width: 100px;
+  height: 100px;
+  border: 1px red solid;
+}
